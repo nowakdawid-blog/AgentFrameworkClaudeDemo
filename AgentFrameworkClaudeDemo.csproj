@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <UserSecretsId>85d949c6-bd26-4389-aab1-39cdfe41ca7d</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Anthropic" Version="12.50.0" />
+    <PackageReference Include="Microsoft.Agents.AI.Hosting" Version="1.22.0-preview.260918.1" />
+    <PackageReference Include="Microsoft.Agents.AI.Hosting.OpenAI" Version="1.22.0-alpha.260918.1" />
+    <PackageReference Include="Microsoft.Agents.AI.DevUI" Version="1.22.0-preview.260918.1" />
+  </ItemGroup>
+
+</Project>

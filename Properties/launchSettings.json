@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "AgentFrameworkClaudeDemo": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "launchUrl": "devui",
+      "applicationUrl": "https://localhost:7139;http://localhost:5139",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
